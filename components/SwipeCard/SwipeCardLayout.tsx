@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "compo
 
 export const SwipeCardLayout = () => {
     return (
-        <Card className=" bg-darkShade relative m-12 h-[500px] w-[500px] overflow-hidden ">
+        <Card className=" relative m-12 h-[500px] w-[500px] overflow-hidden bg-darkShade ">
             <Image
                 alt="Product image"
                 className="absolute aspect-square h-full w-full rounded-md object-cover opacity-20"
@@ -21,10 +21,10 @@ export const SwipeCardLayout = () => {
             </CardHeader>
             <Image
                 alt="brainIcon"
-                className="relative flex aspect-square h-full w-full rounded-md object-cover opacity-20"
-                height="200"
+                className="relative flex aspect-square h-full w-full rounded-md object-contain opacity-20"
+                height="50"
                 src="/images/brainIcon.svg"
-                width="200"
+                width="50"
             ></Image>
             <CardContent>
                 <div className="relative grid gap-2">
