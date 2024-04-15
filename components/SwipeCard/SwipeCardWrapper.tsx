@@ -1,7 +1,14 @@
+import { MenuTray } from "components/MenuTray/MenuTray"
+
 interface SwipeCardWrapperProps {
     children: React.ReactNode
 }
 
 export const SwipeCardWrapper = ({ children }: SwipeCardWrapperProps) => {
-    return <div className="h-full relative flex w-full rounded-2xl border-2 border-black bg-lightShade ">{children}</div>
+    return (
+        <div className="relative flex flex-col h-full w-full justify-center bg-lightShade ">
+            {children}
+            <MenuTray />
+        </div>
+    )
 }
