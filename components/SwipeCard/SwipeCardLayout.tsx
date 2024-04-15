@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "compo
 
 export const SwipeCardLayout = () => {
     return (
-        <Card className=" relative m-12 h-[500px] w-[500px] overflow-hidden bg-darkShade ">
+        <Card className=" h-svh relative w-[300px] overflow-hidden bg-darkShade ">
             <Image
                 alt="Product image"
                 className="absolute aspect-square h-full w-full rounded-md object-cover opacity-20"
@@ -19,13 +19,36 @@ export const SwipeCardLayout = () => {
                 <CardDescription>Type of Psychologist</CardDescription>
                 <CardDescription>Qualifications</CardDescription>
             </CardHeader>
-            <Image
-                alt="brainIcon"
-                className="relative flex aspect-square h-full w-full rounded-md object-contain opacity-20"
-                height="50"
-                src="/images/brainIcon.svg"
-                width="50"
-            ></Image>
+            <div className="flex flex-row ">
+                <Image
+                    alt="brainIcon"
+                    className="relative flex aspect-square h-8 w-8 rounded-md object-contain opacity-20"
+                    height="25"
+                    src="/images/brainIcon.svg"
+                    width="25"
+                ></Image>
+                <Image
+                    alt="brainIcon"
+                    className="relative flex aspect-square h-8 w-8 rounded-md object-contain opacity-20"
+                    height="25"
+                    src="/images/brainIcon.svg"
+                    width="25"
+                ></Image>
+                <Image
+                    alt="brainIcon"
+                    className="relative flex aspect-square h-8 w-8 rounded-md object-contain opacity-20"
+                    height="25"
+                    src="/images/brainIcon.svg"
+                    width="25"
+                ></Image>
+                <Image
+                    alt="brainIcon"
+                    className="relative flex aspect-square h-8 w-8 rounded-md object-contain opacity-20"
+                    height="25"
+                    src="/images/brainIcon.svg"
+                    width="25"
+                ></Image>
+            </div>
             <CardContent>
                 <div className="relative grid gap-2">
                     <div className="grid h-16 grid-cols-3 gap-2  bg-green-300 ">

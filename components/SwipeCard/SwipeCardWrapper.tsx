@@ -3,7 +3,5 @@ interface SwipeCardWrapperProps {
 }
 
 export const SwipeCardWrapper = ({ children }: SwipeCardWrapperProps) => {
-    return (
-        <div className="bg-lightShade relative flex h-fit w-fit rounded-2xl border-2 border-black p-12">{children}</div>
-    )
+    return <div className="h-full relative flex w-full rounded-2xl border-2 border-black bg-lightShade ">{children}</div>
 }
