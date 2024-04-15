@@ -320,3 +320,5 @@ This project is licensed under the MIT License. For more information, see the [L
 [github-contributors-badge-link]: https://github.com/Blazity/next-enterprise/graphs/contributors
 [discord-badge-link]: https://blazity.com/discord
 [made-by-blazity-badge-link]: https://blazity.com/?utm_source=nextenterprise&utm_medium=github
+#   M i n d s e t  
+ 
